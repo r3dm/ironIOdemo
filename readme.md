@@ -1,8 +1,14 @@
 # Iron.io demo
 
 ## usage
-place `IRON_TOKEN` and `IRON_PROJECT_ID` in .env file at root of project
+add Environment Variables
+
+    # ./.env
+    IRON_TOKEN=foo
+    IRON_PROJECT_ID=bar
 
 run
 
-    % node index
+    % node addToQueue
+    % node getFromQueue
+    % node deleteFromQueue
